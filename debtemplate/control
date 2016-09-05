@@ -14,7 +14,6 @@ Depends:
  ${misc:Depends},
  lxqt-common,
  @CODENAME_SAFE@-wallpapers,
- ${misc:Depends},
  siduction-icons,
  breeze-cursor-theme
 Description: LXQt theme for @CODENAME@
