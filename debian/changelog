@@ -1,0 +1,13 @@
+patience-lxqt-artwork (2016.1.0~alpha-2) unstable; urgency=medium
+
+  * new bootstrap, fixed copyright, fixed VCS-fields
+  * deleted source options
+  * use source format 1.0
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 05 Sep 2016 20:30:49 +0200
+
+patience-lxqt-artwork (2016.1.0~alpha-1) unstable; urgency=low
+
+  * initial release
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 13 Aug 2016 01:22:42 +0200
