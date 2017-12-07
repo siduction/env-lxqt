@@ -2,8 +2,8 @@ Source: patience-lxqt-artwork
 Section: graphics
 Priority: extra
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10),
+Standards-Version: 4.1.2
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 Vcs-Browser: https://git.siduction.org/artwork/env-lxqt.git
 
@@ -12,7 +12,7 @@ Package: patience-lxqt-artwork
 Architecture: all
 Depends:
  ${misc:Depends},
- lxqt-common,
+ lxqt-themes | lxqt-theme,
  patience-wallpapers,
  siduction-icons,
  breeze-cursor-theme
