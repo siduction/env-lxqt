@@ -1,6 +1,6 @@
 Source: @CODENAME_SAFE@-lxqt-artwork
 Section: graphics
-Priority: extra
+Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 11),
 Standards-Version: 4.1.3
