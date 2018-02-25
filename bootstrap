@@ -84,6 +84,6 @@ sed -e "s/\@CODENAME\@/${CODENAME}/g" \
     ../template/debian/links \
     > ./debian/links
 
-cho "-----------------------------------------------------------"
+echo "-----------------------------------------------------------"
 echo "Recreated debian/$foo successful - just go ahead!"
 echo ""
