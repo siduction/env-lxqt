@@ -3,20 +3,19 @@ Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 11),
-Standards-Version: 4.1.3
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
-Vcs-Browser: https://git.siduction.org/artwork/env-lxqt.git
 
 
 Package: @CODENAME_SAFE@-lxqt-artwork
 Architecture: all
-Depends:
- ${misc:Depends},
- lxqt-themes | lxqt-theme,
- @CODENAME_SAFE@-wallpapers,
- siduction-icons,
- breeze-cursor-theme
+Depends: ${misc:Depends},
+         lxqt-themes | lxqt-theme,
+         @CODENAME_SAFE@-wallpapers,
+         siduction-icons,
+         breeze-cursor-theme
 Description: LXQt theme for @CODENAME@
- Release specific metapackage depending on @CODENAME_SAFE@-wallpapers
+ Release specific metapackage depending on @CODENAME@-wallpapers
  to be used in combination with the LXQt desktop environment.
 
