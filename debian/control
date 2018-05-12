@@ -3,20 +3,19 @@ Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
 Build-Depends: debhelper (>= 11),
-Standards-Version: 4.1.3
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
-Vcs-Browser: https://git.siduction.org/artwork/env-lxqt.git
 
 
 Package: patience-lxqt-artwork
 Architecture: all
-Depends:
- ${misc:Depends},
- lxqt-themes | lxqt-theme,
- patience-wallpapers,
- siduction-icons,
- breeze-cursor-theme
+Depends: ${misc:Depends},
+         lxqt-themes | lxqt-theme,
+         patience-wallpapers,
+         siduction-icons,
+         breeze-cursor-theme
 Description: LXQt theme for Patience
- Release specific metapackage depending on patience-wallpapers
+ Release specific metapackage depending on Patience-wallpapers
  to be used in combination with the LXQt desktop environment.
 
