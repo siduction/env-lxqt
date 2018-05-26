@@ -4,13 +4,8 @@
 *.swp
 
 ## build foo
-/paintitblack/
-
-
-/debian/thunderstruck-*/
 /debian/paintitblack-*/
 /deban/patience-*/
-/debian/whiteroom-*/
 
 ## generated debian files
 /debian/debhelper-build-stamp

@@ -1,22 +1,21 @@
 Source: paintitblack-lxqt-artwork
 Section: graphics
-Priority: extra
+Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
-Build-Depends: debhelper (>= 9),
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 11),
+Standards-Version: 4.1.4
+Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
-Vcs-Browser: https://git.siduction.org/artwork/env-lxqt.git
 
 
 Package: paintitblack-lxqt-artwork
 Architecture: all
-Depends:
- ${misc:Depends},
- lxqt-common,
- paintitblack-wallpapers,
- siduction-icons,
- breeze-cursor-theme
-Description: LXQt theme for PaintItBlack - next
- Release specific metapackage depending on Art-Wallpaper
+Depends: ${misc:Depends},
+         lxqt-themes | lxqt-theme,
+         paintitblack-wallpapers,
+         siduction-icons,
+         breeze-cursor-theme
+Description: LXQt theme for PaintItBlack
+ Release specific metapackage depending on PaintItBlack-wallpapers
  to be used in combination with the LXQt desktop environment.
 

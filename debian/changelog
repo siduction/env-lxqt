@@ -1,3 +1,21 @@
+paintitblack-lxqt-artwork (2018.4.0~1) unstable; urgency=medium
+
+  * new bootstrap 2018.4.0
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 May 2018 16:21:03 +0200
+
+paintitblack-lxqt-artwork (2018.3.0-1) unstable; urgency=medium
+
+  * new bootstrap for 2018.3.0
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 16 Apr 2018 01:11:31 +0200
+
+paintitblack-lxqt-artwork (2016.09.04-2) unstable; urgency=medium
+
+  * some cleanup, lxqt-common removed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 20 Jan 2018 16:22:18 +0100
+
 paintitblack-lxqt-artwork (2016.09.04-1) unstable; urgency=medium
 
   * new bootstrap, fixed copyright, fixed VCS-fields
@@ -20,7 +38,7 @@ paintitblack-lxqt-artwork (2016.08.08) unstable; urgency=medium
 
 paintitblack-lxqt-artwork (2016.04.10) unstable; urgency=medium
 
-  * new bootstrap (cursor-theme, standards) 
+  * new bootstrap (cursor-theme, standards)
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 10 Apr 2016 18:20:24 +0200
 
@@ -39,7 +57,7 @@ paintitblack-lxqt-artwork (2016.01.02) unstable; urgency=medium
 paintitblack-lxqt-artwork (2015.08.01) unstable; urgency=medium
 
   * new renamed lxqt artwork package for lxqt
-  * forked 'dark' theme 
+  * forked 'dark' theme
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 03 Aug 2015 00:21:53 +0200
 
