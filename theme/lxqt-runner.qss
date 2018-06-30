@@ -3,10 +3,8 @@
  */
 
 #panel {
-    border: 1px solid #4C4C4C;
-    background:#2D2D2D;
-    padding: 2px;
-    margin: 0px;
+    background:rgba(0, 0, 0, 50%);
+    border: 1px solid rgba(0, 0, 0, 50%);
 }
 
 /*
@@ -17,53 +15,135 @@ QToolButton::menu-indicator {
    image: none;
 }
 
-QToolButton {
-    margin: 0px;
-    border: 0px solid transparent;
-    padding: 0px;
-    font-size: 10pt;
-    color: #DEDEDE;
-    qproperty-iconSize: 20px;
-}
-
-QToolButton:hover {
-    border: 0px solid #DEDEDE;
-    margin: 1px;
-    padding: 1px;
-
-}
-
 #closeButton {
     qproperty-icon: url(lxqt-runner/close.svg);
+    margin: 2px;
+}
+#closeButton:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: rgba(255, 255, 255, 20%);
 }
 
 #actionButton {
     qproperty-icon: url(lxqt-runner/down-arrow.svg);
+    color: rgba(41, 41, 41, 0%);
+    margin: 2px;
+}
+#actionButton:hover {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: rgba(255, 255, 255, 20%);
+}
+#actionButton:pressed {
+   border: 1px solid rgba(0, 0, 0, 50%);
+   background: rgba(255, 255, 255, 20%);
 }
 
 /*
- *Search field
+ *Search line-edit
  */
 
-#commandEd {
-    border: 1px solid #4C4C4C;
-    padding: 0px;
-    margin: 0px;
-    background: white;
-    color: #2D2D2D;
-    selection-background-color: #FF6702;
-    selection-color: white;
+QLineEdit {
+    background: black;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 6px;
+    margin-bottom: 1px;
+    color: white;
+    selection-background-color: #640b0c;
 }
 
 /*
  *Search results list
  */
 
+/* The list doesn't seem to be stylable completely; so, we left it to the widget style. */
+
 #commandList {
-    border: 1px solid #4C4C4C;
+    border: none;
+    /*background: rgba(0, 0, 0, 50%);
+    alternate-background-color: #3c3c3c;
+    color: white;*/
 }
 
-#commandList::item {
-    margin: 2px;
-    padding: 2px;
+/*#commandList::item {
 }
+
+#commandList::item:selected {
+}
+
+#commandList::item::hover {
+}*/
+
+/*
+ * Menu
+ */
+
+QMenu {
+    margin: 0px;
+    padding: 2px;
+    border: 1px solid #323232;
+    border-bottom-color: black;
+    border-right-color: black;
+    background: black;
+    /*qproperty-icon: url(mainmenu.svg);*/
+    color: white;
+}
+
+QMenu::icon {
+    background-color: transparent;
+    border: 20px;
+}
+
+QMenu QToolButton {
+    background-color: #3c3c3c;
+    padding: 5px;
+    border: none;
+    color: white;
+    font: bold italic;
+}
+
+QMenu::item {
+    border: 10px solid transparent;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 5px;
+    padding: 6px 40px 6px 24px;
+    background: transparent;
+    color: white;
+}
+
+QMenu::item:selected {
+    border: 10px solid #640b0c;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 5px;
+    background: #640b0c;
+    color: white;
+}
+
+QMenu::item:selected:disabled {
+    background-color: palette(text);
+}
+
+QMenu::item:disabled {
+    color: #6D6D6D;
+}
+
+QMenu::right-arrow {
+    image: url(arrow-right.svg);
+}
+
+QMenu::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QMenu::indicator:non-exclusive:unchecked {
+    image: url(unchecked.svg);
+}
+
+QMenu::indicator:non-exclusive:checked {
+    image: url(checked.svg);
+}
+
+
