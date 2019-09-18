@@ -3,12 +3,12 @@ Upstream-Name: @CODENAME_SAFE@-lxqt-artwork
 Upstream-Contact: Alf Gaida <agaida@siduction.org>
 
 Files: *
-Copyright: 2014-2018 Alf Gaida <agaida@siduction.org>
+Copyright: 2014-2019 Alf Gaida <agaida@siduction.org>
            2014-2016 Hendrik Lehmbruch <hlehmbruch@gmx.net>
 License: GPL-2.0+
 
 Files: debian/*
-Copyright: 2013-2018 Alf Gaida <agaida@siduction.org>
+Copyright: 2013-2019 Alf Gaida <agaida@siduction.org>
 License: GPL-2.0+
 
 License: GPL-2.0+
