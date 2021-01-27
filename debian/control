@@ -1,4 +1,4 @@
-Source: patience-lxqt-artwork
+Source: c-blues-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: patience-lxqt-artwork
+Package: c-blues-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         patience-wallpapers,
+         c-blues-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for Patience
- Release specific metapackage depending on Patience-wallpapers
+Description: LXQt theme for c-blues
+ Release specific metapackage depending on c-blues-wallpapers
  to be used in combination with the LXQt desktop environment.
 
