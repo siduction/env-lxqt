@@ -16,4 +16,4 @@ $(SIZES):
 	ln -sf /usr/share/wallpapers/$(THEME)/contents/images/$@.jpg $(THEME)/$@.jpg;
 
 clean:
-	$(RM) -r $(THEME);
+	rmdir  $(THEME);
