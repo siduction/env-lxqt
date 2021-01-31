@@ -1,3 +1,9 @@
+cblues-lxqt-artwork (2021.1.0-2) unstable; urgency=medium
+
+  * fix last naming bugs
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Sun, 31 Jan 2021 19:34:31 +0100
+
 cblues-lxqt-artwork (2021.1.0-1) unstable; urgency=medium
 
   * fix codename safe
