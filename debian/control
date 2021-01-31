@@ -1,4 +1,4 @@
-Source: c-blues-lxqt-artwork
+Source: cblues-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: c-blues-lxqt-artwork
+Package: cblues-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         c-blues-wallpapers,
+         cblues-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for c-blues
- Release specific metapackage depending on c-blues-wallpapers
+Description: LXQt theme for cblues
+ Release specific metapackage depending on cblues-wallpapers
  to be used in combination with the LXQt desktop environment.
 
