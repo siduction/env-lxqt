@@ -1,4 +1,4 @@
-Source: cblues-lxqt-artwork
+Source: farewell-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: cblues-lxqt-artwork
+Package: farewell-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         cblues-wallpapers,
+         farewell-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for cblues
- Release specific metapackage depending on cblues-wallpapers
+Description: LXQt theme for farewell
+ Release specific metapackage depending on farewell-wallpapers
  to be used in combination with the LXQt desktop environment.
 
