@@ -1,6 +1,7 @@
 farewell-lxqt-artwork (2021.1.99-1) unstable; urgency=medium
 
   * prepare farewell packaging
+  * fix Makefile
 
  -- Torsten Wohlfarth <towo@siduction.org>  Fri, 11 Jun 2021 07:47:06 +0200
 

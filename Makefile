@@ -8,12 +8,19 @@ SIZES= 800x600 1024x600 1024x768 1152x864 1280x720 1280x800 1280x1024 \
 all: clean prepare $(SIZES)
 
 prepare:
-	mkdir -p $(THEME)
+	if [ ! -d $(THEME) ]; then \
+	mkdir -p $(THEME); \
+	fi
 	cp -a theme $(THEME)
 
 $(SIZES):
-	mkdir -p $(THEME)
+	if [ ! -d $(THEME) ]; then \
+	mkdir -p $(THEME); \
+	fi
 	ln -sf /usr/share/wallpapers/$(THEME)/contents/images/$@.jpg $(THEME)/$@.jpg;
 
 clean:
-	rmdir  $(THEME);
+	if [ -d $(THEME) ]; then \
+	rmdir $(THEME); \
+	fi
+
