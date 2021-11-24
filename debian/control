@@ -1,4 +1,4 @@
-Source: farewell-lxqt-artwork
+Source: wintersky-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: farewell-lxqt-artwork
+Package: wintersky-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         farewell-wallpapers,
+         wintersky-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for farewell
- Release specific metapackage depending on farewell-wallpapers
+Description: LXQt theme for wintersky
+ Release specific metapackage depending on wintersky-wallpapers
  to be used in combination with the LXQt desktop environment.
 
