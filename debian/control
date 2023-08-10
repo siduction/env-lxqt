@@ -1,4 +1,4 @@
-Source: mow-lxqt-artwork
+Source: giants-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: mow-lxqt-artwork
+Package: giants-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         mow-wallpapers,
+         giants-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for mow
- Release specific metapackage depending on mow-wallpapers
+Description: LXQt theme for giants
+ Release specific metapackage depending on giants-wallpapers
  to be used in combination with the LXQt desktop environment.
 

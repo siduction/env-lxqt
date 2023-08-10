@@ -1,5 +1,5 @@
-CODENAME=Masters of War
-CODENAME_SAFE=mow
+CODENAME=Standing on the Soulders of Giants
+CODENAME_SAFE=giants
 DISPLAY=LXQt
 FLAVOUR=lxqt
-VERSION=2022.1.0
+VERSION=2023.1
