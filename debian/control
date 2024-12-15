@@ -1,4 +1,4 @@
-Source: giants-lxqt-artwork
+Source: shine_on-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: giants-lxqt-artwork
+Package: shine_on-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         giants-wallpapers,
+         shine_on-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for giants
- Release specific metapackage depending on giants-wallpapers
+Description: LXQt theme for shine_on
+ Release specific metapackage depending on shine_on-wallpapers
  to be used in combination with the LXQt desktop environment.
 
