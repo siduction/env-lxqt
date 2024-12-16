@@ -20,7 +20,7 @@ $(SIZES):
 	if [ ! -d $(THEME) ]; then \
 	mkdir -p $(THEME); \
 	fi
-	ln -sf /usr/share/wallpapers/$(THEME)/contents/images/$@.jpg $(THEME)/$@.jpg;
+	ln -sf /usr/share/wallpapers/$(THEME)/contents/images/$@.png $(THEME)/$@.png;
 
 clean:
 	if [ -d $(THEME) ]; then \
