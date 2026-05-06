@@ -1,4 +1,4 @@
-Source: shine-on-lxqt-artwork
+Source: big-crime-lxqt-artwork
 Section: graphics
 Priority: optional
 Maintainer: Alf Gaida <agaida@siduction.org>
@@ -8,14 +8,14 @@ Vcs-Browser: https://git.siduction.org/artwork/env-lxqt
 Vcs-Git: https://git.siduction.org/artwork/env-lxqt.git
 
 
-Package: shine-on-lxqt-artwork
+Package: big-crime-lxqt-artwork
 Architecture: all
 Depends: ${misc:Depends},
          lxqt-themes | lxqt-theme,
-         shine-on-wallpapers,
+         big-crime-wallpapers,
          siduction-icons,
          breeze-cursor-theme
-Description: LXQt theme for shine-on
- Release specific metapackage depending on shine-on-wallpapers
+Description: LXQt theme for big-crime
+ Release specific metapackage depending on big-crime-wallpapers
  to be used in combination with the LXQt desktop environment.
 
